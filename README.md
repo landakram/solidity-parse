@@ -1,8 +1,8 @@
 # solidity-parse
 
-[![npm](https://img.shields.io/npm/v/solidity-parse)](https://www.npmjs.com/package/solidity-parse)
-
 > A CLI for [solidity-parser](github.com/solidity-parser/parser).
+
+[![npm](https://img.shields.io/npm/v/solidity-parse)](https://www.npmjs.com/package/solidity-parse)
 
 Parse a .sol file with solidity-parser. By default, the parsed AST is printed 
 as JSON to stdout.
