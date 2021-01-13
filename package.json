@@ -1,0 +1,25 @@
+{
+  "name": "solidity-parse",
+  "version": "0.0.1",
+  "description": "A CLI for solidity-parser",
+  "main": "dist/index.js",
+  "repository": "https://github.com/landakram/solidity-parse",
+  "author": "Mark Hudnall",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepare": "yarn run build"
+  },
+  "bin": {
+    "solidity-parse": "dist/index.js"
+  },
+  "dependencies": {
+    "@solidity-parser/parser": "^0.11.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
